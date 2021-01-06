@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    margin: 0;
+     font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    background:white;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:black;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+a:hover{
+    background: tomato;
+    transition: .5s;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+    
+}
+.blue-highlight{
+    color: rgb(10, 10, 80);
+    text-transform: uppercase;
+   
+}
+.red-highlight{
+    color: #ff6347;
+    text-transform: uppercase;
+}
+.half-width{
+    width: 40%;
+   float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(245, 80, 14),tomato);
+    padding: 30px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: slategrey;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 40px;
+    color: rgb(10, 10, 80);
+    text-align: center;
+    padding: 60px 50px;
+}
+.red-image{
+    color: tomato;
+}
+
+.work-time{
+    background-color: rgba(243,235,235,0.918);
+    padding-bottom: 60px;
+    height: 800px;
+}
+.work-area{
+    width: 100%;
+    padding-top: 40px;
+
+}
+.work-part{
+    width: 28%;
+    float:left;
+    margin: 1.7%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+.work-part img{
+    width: 80%;
+    padding: 25px 0 0 25px;
+
+}
+.work-part h3{
+    padding: 10px 25px;
+}
+.work-part p{
+    padding: 0 0 25px 25px;
+}
+
+    
+
+
+
+.work-inquiry{
+    background-image: url("images/slider.png");
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+    background-position: center;
+    position: relative;
+    padding-top: 0%;
+    height: 500px;
+
+}
+.text{
+    position: absolute;
+    bottom: 140px;
+    right: 600px;
+    padding-bottom: 65px;
+    
+}
+h2{
+    font-weight: 700;
+    color:white;
+    font-size: 50px;
+    margin-top: 50px;
+  
+
+}
+.btn{
+    position: absolute;
+    bottom: 280px;
+    left: 750px;
+   padding: 14px 18px;
+    background: tomato;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+h3{
+    text-align: center;
+    color: rgb(37, 37, 73);
+}
+.last-section{
+    height: 100px;
+    margin-top: 0px;
+    height: 150px;
+}
+span p{
+    text-align: center;
+    color:rgb(10, 10, 80) ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.icon-image{
+    text-align: center;
+   
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
